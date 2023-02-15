@@ -1,0 +1,162 @@
+body {
+	font-size: 20px;
+	color: $primary-txt;
+	font-family: 'Playfair Display', serif;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box; 
+}
+
+
+.container{
+	max-width: 1180px;
+    margin: 0 auto;
+	padding: 0 90px;
+	 
+}
+
+//btn
+
+.btn{
+	padding: 14px 28px;
+	background: $accent;
+	box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
+	border:none;
+	border-radius: 24px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 21px;
+	color:$button-txt;
+	&_black{
+		background:$button-txt;
+		color: $accent;
+	}
+
+
+}
+//main styles
+.main-txt{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 34px;
+}
+
+//header
+.header{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+
+	padding: 60px 90px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+	z-index:10;
+
+	align-items: center;
+
+
+
+&-auth{
+	display: flex;
+	justify-content: space-between;
+	&>.btn{
+		margin-right: 15px;
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+}
+
+&-logo-title{
+	font-family: 'Clicker Script';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 46px;
+	color: $white-txt;
+
+}
+
+&-list{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	li{
+		margin-right: 60px;
+
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+
+	a{
+		color: $white-txt;
+		font-size: inherit;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 19px;
+
+		&:hover{
+			color:$accent;
+		}
+		
+	}
+}
+}
+	
+	
+
+
+//home
+.home{
+	background: url(img/home-bckg.jpg) center no-repeat;
+	
+	background-size: cover;
+	height:100vh;
+	display: flex;
+	width: 100%;
+	padding: 0;
+	position: relative;
+	color: $white-txt;
+
+	&-inner{
+		margin-top: 250px;
+		left:0%;
+		position: absolute;
+		right: 0;
+	
+		
+		& >.btn{
+			color:$button-txt;
+		}
+
+		& >.main-txt{
+			margin-bottom: 25px;
+			
+		}
+	}
+
+	&-txt{
+		font-style: normal;
+		font-weight: 500;
+		font-size: 22px;
+		line-height: 29px;
+	}
+	
+
+	&-logo{
+		font-family: 'Clicker Script';
+		font-weight: 400;
+		font-size: 220px;
+		line-height: 291px;	
+	}
+
+	
+}
