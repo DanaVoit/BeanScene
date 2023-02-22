@@ -1,0 +1,27 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1444418185997-1145401101e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2434&q=80",
+    "name": "Cappuccino",
+    "composition": "Coffee 50% | Milk 50%",
+    "price": "8.50"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1335&q=80",
+    "name": "Chai Latte",
+    "composition": "Coffee 50% | Milk 50%",
+    "price": "8.50"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1563090308-5a7889e40542?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+    "name": "Macchiato",
+    "composition": "Coffee 50% | Milk 50%",
+    "price": "8.50"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1579992357154-faf4bde95b3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+    "name": "Expresso",
+    "composition": "Coffee 50% | Milk 50%",
+    "price": "8.50"
+  }
+ 
+]
