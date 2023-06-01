@@ -4,6 +4,7 @@ function FooterItem(props) {
     <li className="footer-inner-list-item">{link}</li>
   ));
 
+
   return (
     <div className="footer-inner">
       <h3 className="footer-inner-title">{props.title}</h3>
