@@ -1,3 +1,7 @@
+import { HeaderAuth } from "./mainComponents/auth/HeaderAuth";
+import { MobileMenu } from "./mainComponents/MobileMenu";
+
+
 function HeaderList(props) {
   const numbers = props.numbers;
   const listItems = numbers.map((number) => (
@@ -19,16 +23,11 @@ function Header() {
     <header className="header container">
       <a className="header-logo-title">Bean Scene</a>
       <HeaderList numbers={headerListItems} />
-      <div className="header-auth">
-        <button type="button" className="btn">
-          Sign in
-        </button>
-        <button type="button" className="btn btn_black">
-          Sign out
-        </button>
-      </div>
+      <HeaderAuth />
+      <MobileMenu/>
     </header>
   );
 }
 
 export { Header };
+export {HeaderList};
